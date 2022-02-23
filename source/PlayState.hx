@@ -655,6 +655,7 @@ class PlayState extends MusicBeatState
 					bg.scale.set(6, 6);
 					bg.antialiasing = false;
 					add(bg);
+					
 				{
 			case 'cbg':
                                 var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('datree/bg/cbg'))
